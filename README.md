@@ -15,24 +15,6 @@ Whenever code is pushed or a pull request is made, tests are automatically run. 
 
 ---
 
-## Project Structure
-
-ci-cd-sample/
-├── .github/
-│   └── workflows/
-│       └── ci-cd.yml         # GitHub Actions workflow
-├── src/
-│   └── main.py               # Sample code to test and deploy
-├── tests/
-│   └── test_main.py          # Simple test cases
-├── requirements.txt          # Python dependencies (if using Python)
-├── README.md                 # Project documentation
-└── deploy/
-    └── deploy_script.sh      # Optional deploy script for demonstration
-
-
----
-
 ## 🛠 Tech Used
 
 - GitHub Actions (CI/CD)

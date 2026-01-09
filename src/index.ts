@@ -21,5 +21,8 @@ app.listen(PORT, () => {
 
 app.get("/product", (req, res)=>{
   res.send("this is a product page")
+})
 
+app.get("/order", (req, res) => {
+  res.send("This is order Page");
 })
